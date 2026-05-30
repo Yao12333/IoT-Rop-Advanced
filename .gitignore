@@ -1,0 +1,17 @@
+# 编译产物
+src/**/vuln_nobd
+src/**/*.o
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# 临时脚本
+tmp_push.sh
+do_push.sh
+setup_ssh.sh
+push_to_github.sh
